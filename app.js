@@ -124,10 +124,27 @@
 // 4. A visitor visits an online clothing store www.xyzClothing.com . Write a script to store in variables the following information: a. Visitor’s name b. Product title c. Quantity i.e. how many products a visitor wants to order Show the following message in your browser: “John Doe ordered 5 T-shirt(s) on XYZ Clothing store” 
 
 // Solution: 
-var userName = prompt("Enter Your Name", "Name");
-var productTitle = prompt("Enter Product Name", "Cars , Mobile etc");
-var Quantity = +prompt("Enter Quatity Number","Quantity");
-document.write("Customer Name : "+ userName+"<br />");
-document.write("Product Name : " + productTitle+"<br />");
-document.write("Quanity of Product : " + Quantity+"<br />");
+// var userName = prompt("Enter Your Name", "Name");
+// var productTitle = prompt("Enter Product Name", "Cars , Mobile etc");
+// var Quantity = +prompt("Enter Quatity Number","Quantity");
+// document.write("Customer Name : "+ userName+"<br />");
+// document.write("Product Name : " + productTitle+"<br />");
+// document.write("Quanity of Product : " + Quantity+"<br />");
+
+
+// Chapter No 4 
+// VARIABLE NAMES: LEGAL & ILLEGAL 
+
+// 1. Declare 3 variables in one statement.
+// solution:
+// var name; var age ; var Class;
+
+
+
+
+
+
+
+
+
 

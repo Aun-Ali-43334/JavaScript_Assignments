@@ -33,12 +33,12 @@
 // Chapter No 2
 // VARIABLES FOR STRINGS
 // 1. Declare a variable called username.
-var userName ;
+// var userName ;
 
 
 // 2. Declare a variable called myName & assign to it a string that represents your Full Name.
 // solution:
-var myName = "Aun Ali";
+// var myName = "Aun Ali";
 
 
 
@@ -82,13 +82,52 @@ var myName = "Aun Ali";
 // 7. Declare a variable called book & give it the value “A smarter way to learn JavaScript”. Display the following message in an alert box:
 // solution:
 
+// var book = "A smarter way to learn JavaScript";
+// alert(book);
+
+
+
+// 8. Write a script to display this in browser through JS
+// solution:
+// solution:
+// document.write("<h1>"+msg+"</h1>")
+
+
+// 9. Store following string in a variable and show in alert and browser through JS
+// var msg = "Yeah ! I can write HTMl Content in JavaScript";
+// var char = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
+// alert(char);
 
 
 
 
+// Chapter No 3
+// VARIABLES FOR NUMBERS
+
+// 1. Declare a variable called age & assign to it your age. Show your age in an alert box.
+// Solution
+//  var age = 24;
+//  alert("My Age : " + age);
 
 
 
+// 2. Declare & initialize a variable to keep track of how many times a visitor has visited a web page. Show his/her number of visits on your web page. For example: “You have visited this site N times”.
 
 
+// 3. Declare a variable called birthYear & assign to it your birth year. Show the following message in your browser:
+// Solution: 
+// var birthYear = 1997;
+// document.write("My Birth Year : "+ birthYear + "<br />");
+//  // document.write("<br />")
+// document.write("Data Type of my declared varriable is an Number")
+
+// 4. A visitor visits an online clothing store www.xyzClothing.com . Write a script to store in variables the following information: a. Visitor’s name b. Product title c. Quantity i.e. how many products a visitor wants to order Show the following message in your browser: “John Doe ordered 5 T-shirt(s) on XYZ Clothing store” 
+
+// Solution: 
+var userName = prompt("Enter Your Name", "Name");
+var productTitle = prompt("Enter Product Name", "Cars , Mobile etc");
+var Quantity = +prompt("Enter Quatity Number","Quantity");
+document.write("Customer Name : "+ userName+"<br />");
+document.write("Product Name : " + productTitle+"<br />");
+document.write("Quanity of Product : " + Quantity+"<br />");
 

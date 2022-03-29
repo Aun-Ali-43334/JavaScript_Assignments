@@ -259,9 +259,17 @@
 // solution
 
 // var priceOfItem1 = 650 ;
+// document.write("price Of Item1 = ",priceOfItem1,"<br />")
 // var quanityOfItem1 = 3 ; 
+// document.write("quanity Of Item1 = ",quanityOfItem1,"<br />")
 // var priceOfItem2 =  100;
-// var quanityOfItem2 = 7 ; 
+// document.write("price Of Item2 = ",priceOfItem2,"<br />")
+// var quanityOfItem2 = 7 ;
+// document.write("quanity Of Item2 = ",quanityOfItem2,"<br />")
+// var shipingCharge = 100;
+
+// document.write((priceOfItem1*quanityOfItem1)+(priceOfItem2*quanityOfItem2)+100);
+
 
 
 // 8. Store total marks & marks obtained by a student in 2 variables. Compute the percentage & show the result in your browser
@@ -286,19 +294,31 @@
 
 // 10. Write a program to initialize a variable with some number and do arithmetic in following sequence: a. Add 5 b. Multiply by 10 c. Divide the result by 2 Perform all calculations in a single expression
 // solution
- var number = 25;
- document.write("Number : ",number,"<br />")
- document.write("ADD 5 = ",number = number+5,"<br />")
- document.write("Multiply by 10 = ",number= (number*10) ,"<br />")
- document.write("Divid by 2 = ",number= (number/2) ,"<br />")
+//  var number = 25;
+//  document.write("Number : ",number,"<br />")
+//  document.write("ADD 5 = ",number = number+5,"<br />")
+//  document.write("Multiply by 10 = ",number= (number*10) ,"<br />")
+//  document.write("Divid by 2 = ",number= (number/2) ,"<br />")
 
 //  11. The Age Calculator: Forgot how old someone is? Calculate it!
+// var currentYear = 2022;
+// document.write("Current year = ",currentYear, "<br />");
+// var DOB = 1997;
+// document.write("Date of Birth = ",DOB, "<br />");
+// var age = currentYear-DOB;
+// document.write("Age = ",age, "<br />");
 
 
 
+// 2. The Geometrizer: Calculate properties of a circle.
+// solution.
 
-
-
+var r = 20;
+document.write("Radius of a Circle = ",r,"<br />")
+var circumferenceOfCicle = 2*r*(3.142);
+document.write("Radius of a Circumference of a Circle = ",circumferenceOfCicle,r,"<br />")
+var Area = (3.142)*(r**2);
+document.write("Area of a Circle = ",Area);
 
 
 

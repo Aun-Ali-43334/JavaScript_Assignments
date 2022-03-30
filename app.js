@@ -481,7 +481,31 @@
 
 
 
+// 3. Write a program to take input color of road traffic signal
+// from the user & show the message according to this table:
+// solution:
 
+// var col1 = prompt("Enter color 1");
+// var col2 = prompt("Enter color 2");
+// var col3 = prompt("Enter color 3");
 
+// var msg1 = "must stop";
+// var msg2 = "ready to move";
+// var msg3 = "move now";
 
+// document.write("<table><thead><tr><th><p>Signal color</p></th><th><p>Signal color</p></th></tr></thead><tbody><tr><th>"+col1+"</th><th>"+msg1+"</th><tr><tr><th>"+col2+"</th><th>"+msg2+"</th><tr><tr><th>"+col3+"</th><th>"+msg3+"</th><tr></tbody></table>")
 
+// 4. Write a program to take input remaining fuel in car (in
+//     litres) from user. If the current fuel is less than 0.25litres,
+//     show the message “Please refill the fuel in your car”
+
+// solution
+ var fuelInput = +prompt("Enter Your Remaiing Fuel");
+ var minFuel = 0.25;
+ if(fuelInput < minFuel){
+     document.write("Please refill the fuel")
+    }
+    else{
+     document.write("You have enough fuel")
+
+ }

@@ -310,44 +310,143 @@
 
 
 
-// 2. The Geometrizer: Calculate properties of a circle.
+// 12. The Geometrizer: Calculate properties of a circle.
 // solution.
 
-var r = 20;
-document.write("Radius of a Circle = ",r,"<br />")
-var circumferenceOfCicle = 2*r*(3.142);
-document.write("Radius of a Circumference of a Circle = ",circumferenceOfCicle,r,"<br />")
-var Area = (3.142)*(r**2);
-document.write("Area of a Circle = ",Area);
+// var r = 20;
+// document.write("Radius of a Circle = ",r,"<br />")
+// var circumferenceOfCicle = 2*r*(3.142);
+// document.write("Radius of a Circumference of a Circle = ",circumferenceOfCicle,r,"<br />")
+// var Area = (3.142)*(r**2);
+// document.write("Area of a Circle = ",Area);
+
+
+// 13. The Lifetime Supply Calculator: Ever wonder how
+// much a “lifetime supply” of your favorite snack is?
+// Wonder no more.
+// a. Store your favorite snack into a variable
+// b. Store your current age into a variable.
+// c. Store a maximum age into a variable.
+// d. Store an estimated amount per day (as a number).
+// e. Calculate how many would you eat total for the rest of
+// your life.
 
 
 
+// solution.
+// var favSnack = "Lays";
+// document.write("Favourite Snack = ",favSnack, "<br />")
+// var age = 15;
+// document.write("My age = ",age, "<br />");
+// var maxAge = 65;
+// document.write("Estimated Age = ",maxAge, "<br />")
+// var amountPerDay = 3;
+// document.write("estimated amount of Snacks eaten per day ",amountPerDay, "<br />")
+// var restOfEatingSnacks = ((65-15)*3);
+// document.write("Rest Of remainig Eating Snacks = ",restOfEatingSnacks);
 
 
 
+// Chapter No 6 //
+// MATH EXPRESSIONS 
+// 
+// 1. Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser:
+
+// var a = 10;
+// document.write("The value of a = "+ a +"<br />");
+// a++;
+// document.write("The value of ++a = "+ a +"<br />");
+// document.write("The Now value a = "+ a +"<br />");
+
+// document.write("The value of a++ = "+ a +"<br />");
+// document.write("The value of a = "+ ++a +"<br />");
+// document.write("The value of --a = "+ --a +"<br />");
+// document.write("now value of a = "+ a +"<br />");
+// document.write("now value of a-- = "+ a-- +"<br />");
+// document.write("now value of a = "+ a +"<br />");
 
 
+// 2. What will be the output in variables a, b & result after
+// execution of the following script:
+// var a = 2, b = 1;
+// var result = --a - --b + ++b + b--;
+// Explain the output at each stage:
+// --a;
+// --a - --b;
+// --a - --b + ++b;
+// --a - --b + ++b + b--;
 
 
+// solution:
+
+// var a = 2;
+// document.write(" a = "+ a + "<br />");
+// var b = 1;
+// document.write("b = " + b+ "<br />");
+// var result = --a - --b + ++b + b--;
+// document.write("The value of result = " + result+ "<br />");
 
 
+// 3. Write a program that takes input a name from user & greet the user.
+
+// solution
+// var input = prompt("Enter your Name ","Name");
+// document.write("Hey ! "+ input + " Welcome");
 
 
+// 5. Write a program to take input a number from user & display it’s multiplication table on your browser. If user does not enter a new number, multiplication table of 5 should be displayed by default.
+
+// document.write(num);
 
 
+// var num = +prompt("Input a Number");
+// if(num == 0){
+//     num = 5;
+// }
+// else{
+//     num = num ;
+// }
 
+    // document.write("Table of "+num +" is given below "+"<br />")
+    // document.write(num +" X 1 = "+num*1 + "<br />");
+    // document.write(num +" X 2 = "+num*2 + "<br />");
+    // document.write(num +" X 3 = "+num*3 + "<br />");
+    // document.write(num +" X 4 = "+num*4 + "<br />");
+    // document.write(num +" X 5 = "+num*5 + "<br />");
+    // document.write(num +" X 6 = "+num*6 + "<br />");
+    // document.write(num +" X 7 = "+num*7 + "<br />");
+    // document.write(num +" X 8 = "+num*8 + "<br />");
+    // document.write(num +" X 9 = "+num*9 + "<br />");
+    // document.write(num +" X 10 = "+num*10 + "<br />");
+    
+// 6.
+// a) Take three subjects name from user and store them in 3
+// different variables.
+// b) Total marks for each subject is 100, store it in another
+// variable.
+// c) Take obtained marks for first subject from user and
+// stored it in different variable.
+// ALERTS | JAVASCRIPT
 
+// d) Take obtained marks for remaining 2 subjects from user
+// and store them in variables.
+// e) Now calculate total marks and percentage and show the
+// result in browser like this.(Hint: user table)
 
+// var subjectName1 = prompt("Enter Name of First Subject")
+// var subjectName2 = prompt("Enter Name of Second Subject")
+// var subjectName3 = prompt("Enter Name of Third Subject")
+// var totalMarks = 100;
 
+// var MarksOfSubject1 = +prompt("Enter Marks of Subject 1");
+// var MarksOfSubject2 = +prompt("Enter Marks of Subject 2");
+// var MarksOfSubject3 = +prompt("Enter Marks of Subject 3");
 
+// var percentageOfSubject1 = (MarksOfSubject1/totalMarks)*100;
+// var percentageOfSubject2 = (MarksOfSubject2/totalMarks)*100;
+// var percentageOfSubject3 = (MarksOfSubject3/totalMarks)*100;
 
-
-
-
-
-
-
-
+// document.write("<table><thead><tr><th>Subject Marks</th><th>Obtained Marks</th><th>Percentage</th></tr></thead><tbody><tr><td>"+subjectName1+"</td><td>"+totalMarks+"</td><td>"+MarksOfSubject1+"</td><td>"+percentageOfSubject1+"</td></tr><tr><td>"+subjectName2+"</td><td>"+totalMarks+"</td><td>"+MarksOfSubject2+"</td><td>"+percentageOfSubject2+"</td></tr><tr><td>"+subjectName3+"</td><td>"+totalMarks+"</td><td>"+MarksOfSubject3+"</td><td>"+percentageOfSubject3+"</td></tr><tr><th></th><th>"+(totalMarks+totalMarks+totalMarks)+"</th><th>"+(MarksOfSubject1+MarksOfSubject2+MarksOfSubject3)+"</th><th>"+((percentageOfSubject1+percentageOfSubject2+percentageOfSubject3)/3)+"</th></tr></tbody></table>");
 
 
 

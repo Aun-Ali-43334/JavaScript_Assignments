@@ -347,7 +347,7 @@
 
 
 
-// Chapter No 6 //
+// Chapter No 6 to 9//
 // MATH EXPRESSIONS 
 // 
 // 1. Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser:
@@ -449,6 +449,9 @@
 // document.write("<table><thead><tr><th>Subject Marks</th><th>Obtained Marks</th><th>Percentage</th></tr></thead><tbody><tr><td>"+subjectName1+"</td><td>"+totalMarks+"</td><td>"+MarksOfSubject1+"</td><td>"+percentageOfSubject1+"</td></tr><tr><td>"+subjectName2+"</td><td>"+totalMarks+"</td><td>"+MarksOfSubject2+"</td><td>"+percentageOfSubject2+"</td></tr><tr><td>"+subjectName3+"</td><td>"+totalMarks+"</td><td>"+MarksOfSubject3+"</td><td>"+percentageOfSubject3+"</td></tr><tr><th></th><th>"+(totalMarks+totalMarks+totalMarks)+"</th><th>"+(MarksOfSubject1+MarksOfSubject2+MarksOfSubject3)+"</th><th>"+((percentageOfSubject1+percentageOfSubject2+percentageOfSubject3)/3)+"</th></tr></tbody></table>");
 
 
+
+// Chapter No 9 to 11
+// USER INPUT & CONDITIONAL STATEMENT 
 
 
 

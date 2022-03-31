@@ -584,6 +584,55 @@
 // percentage on your page. Take percentage & compute
 // grade as per following table:
 
+var inputMarks1 = +prompt("Enter Marks of 1st Subject");
+var inputMarks2 = +prompt("Enter Marks of 2nd Subject");
+var inputMarks3 = +prompt("Enter Marks of 3rd Subject");
+var totalMarks = +prompt("Enter Total Marks");
+
+
+var grade;
+var remarks;
+var gradAPlus="A+";
+var gradA="A";
+var gradB="B"
+var gradF="Fail";
+
+
+
+var obtainMarks = inputMarks1+inputMarks2+inputMarks3; //sum of all marks
+var obtainPercentage = (obtainMarks/totalMarks)*100; //calculate percentage
+
+if(obtainPercentage>=80 || obtainMarks<=100){
+    document.write("Excellent ! You got "+ gradAPlus+"grade");
+    grade=gradAPlus;
+    remarks = "Excellent !";
+}
+else if(obtainPercentage>=70 || obtainMarks<80){
+    document.write("Good ! You "+gradA+"grade");
+    grade=gradA;
+    remarks = "Good";
+}
+else if(obtainPercentage>=60 || obtainMarks<70){
+    document.write("You need to improve ! got "+gradB+" grade");
+    grade=gradB;
+    remarks="You need to improve !";
+}
+else if(obtainPercentage>=0 || obtainMarks<60){
+    document.write("You are "+gradF+"! Sorry");
+    grade=gradF;
+    remarks="Sorry";
+}
+else{
+    document.write("Invalid Input");
+
+}
+
+document.write("<br /><br />"+"Total Marks = "+totalMarks+"<br />")
+document.write("you'r Obtained Marks = "+obtainMarks+"<br />");
+document.write("You'r Percentage = "+obtainPercentage+"%"+"<br />");
+document.write("Grade : "+grade+"<br />");
+document.write(remarks+"<br />");
+
 
 
 

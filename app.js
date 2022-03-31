@@ -500,12 +500,129 @@
 //     show the message “Please refill the fuel in your car”
 
 // solution
- var fuelInput = +prompt("Enter Your Remaiing Fuel");
- var minFuel = 0.25;
- if(fuelInput < minFuel){
-     document.write("Please refill the fuel")
-    }
-    else{
-     document.write("You have enough fuel")
+//  var fuelInput = +prompt("Enter Your Remaiing Fuel");
+//  var minFuel = 0.25;
+//  if(fuelInput < minFuel){
+//      document.write("Please refill the fuel")
+//     }
+//     else{
+//      document.write("You have enough fuel")
 
- }
+//  }
+
+
+
+
+// 5. Run this script, & check whether alert message would be
+// displayed or not. Record the outputs.
+//  solution:
+//part a;
+// var a = 4;
+// if(++a === 5){
+//     alert("The Condition for variable a is true");
+// }
+
+
+
+//Part b:
+// var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+// else{
+//     alert("The condition is not true")
+// }
+
+
+
+
+// part c.
+//  var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+
+// part d
+// var materialCost = 20000;
+// var labourCost = 2000;
+// var totalCost = materialCost+labourCost;
+
+// if(totalCost === (materialCost+labourCost)){
+//     alert("Cost is Equal");
+// }
+// else{
+//     alert("Cost isn't Equal");
+
+// }
+
+// part e.
+//  var t =true;
+//  var f = false;
+//  if(!t){
+// alert("This is True");
+//  }
+// else{
+//     alert("This is False");
+// }
+
+// part f.
+// if("car" < "cat"){
+//     alert("car is smaller than cat");
+//     }
+
+// 6. Write a program to take input the marks obtained in three
+// subjects & total marks. Compute & show the resulting
+// percentage on your page. Take percentage & compute
+// grade as per following table:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

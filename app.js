@@ -845,23 +845,62 @@
 //     length 1) and returns true if it is a vowel, false otherwise
 //solution:
 
-var inputCharacter =prompt("Enter a Character");
-if(inputCharacter.charCodeAt()==65 || inputCharacter.charCodeAt()==97 || inputCharacter.charCodeAt()==109 || inputCharacter.charCodeAt()==69 || inputCharacter.charCodeAt()==73 || inputCharacter.charCodeAt()==105 || inputCharacter.charCodeAt()==111 || inputCharacter.charCodeAt()==79 || inputCharacter.charCodeAt()==85 || inputCharacter.charCodeAt()==117){
-    document.write(true+"You enter a Vowel")
-}
-else{
-    document.write(false);
-}
+// var inputCharacter =prompt("Enter a Character");
+// if(inputCharacter.charCodeAt()==65 || inputCharacter.charCodeAt()==97 || inputCharacter.charCodeAt()==109 || inputCharacter.charCodeAt()==69 || inputCharacter.charCodeAt()==73 || inputCharacter.charCodeAt()==105 || inputCharacter.charCodeAt()==111 || inputCharacter.charCodeAt()==79 || inputCharacter.charCodeAt()==85 || inputCharacter.charCodeAt()==117){
+//     document.write(true+"You enter a Vowel")
+// }
+// else{
+//     document.write(false);
+// }
 
+// 5. Write a program that
+// a. Store correct password in a JS variable.
+// b. Asks user to enter his/her password
+// c. Validate the two passwords:
+// i. Check if user has entered password. If not, then
+// give message “ Please enter your password”
+// ii. Check if both passwords are same. If they are
+// same, show message “Correct! The password you
+// entered matches the original password”. Show
+// “Incorrect password” otherwise
 
+// //solution:
+// var password = "aunali_1234";
+// var inputPassword = prompt("Enter Password");
+// if(inputPassword==password){
+//     alert("Password Match")
+// }
+// else if(inputPassword==false){
+//     alert("Password is Empty");
+// }
+// else if(inputPassword!=password){
+//     alert("Wrong Password")
+// }
 
+// 6. This if/else statement does not work. Try to fix it:
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// else
+// greeting = "Good evening";
+// }
 
+// solution:
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// // greeting = "Good day";
+// document.write(greeting="Good Day")
+// }
+// else{
+//     // greeting = "Good evening";
+//     document.write(greeting="Good Evening")
+// }
 
-
-
-
-
-
+// 7. Write a program that takes time as input from user in 24
+// hours clock format like: 1900 = 7pm. Implement the
+// following case using if, else & else if statements
 
 
 

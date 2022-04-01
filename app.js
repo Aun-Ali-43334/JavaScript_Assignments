@@ -788,6 +788,85 @@
 
 
 
+//Chapter 12 - 13
+// IF…ELSE & ELSE IF STATEMENT,
+// TESTING SET OF CONDITIONS 
+
+// 1. Write a program that takes a character (number or string)
+// in a variable & checks whether the given input is a
+// number, uppercase letter or lower case letter. (Hint: ASCII
+// codes:- A=65, Z=90, a=97, z=122).
+
+//solution:
+// var input = prompt("Enter Value");
+// if (input.charCodeAt() >=97 && input.charCodeAt() <=122){
+//     document.write("You Enter Input Lower Level Alphabets");
+// }
+// else if(input.charCodeAt() >=65 && input.charCodeAt() <=90){
+//     document.write("You Enter Input Upper Level Alphabets");
+// }
+// else if(input.charCodeAt() >=48 && input.charCodeAt() <=57){
+//     document.write("You Enter Input Number");
+// }
+
+
+// 2. Write a JavaScript program that accept two integers and
+// display the larger. Also show if the two integers are equal.
+//solution:
+// var inputNum1 = +prompt("Enter number 1")
+// var inputNum2 = +prompt("Enter number 2")
+// if(inputNum1>inputNum2){
+//     document.write("Number 1 is greater then Number 2")}
+// else if(inputNum1<inputNum2){
+//     document.write("Number 1 is lesser then Number 2")}
+// else if(inputNum1==inputNum2){
+//     document.write("Number 1 is Equal to Number 2")}
+
+// 3. Write a program that takes input a number from user &
+// state whether the number is positive, negative or zero.
+//solution:
+
+// var inputNum = +prompt("Enter a Number");
+// if(inputNum==0){
+//     document.write("Number is zero")
+// }
+// else  if(inputNum>0){
+//     document.write("Number is Positive");
+// }
+// else  if(inputNum<0){
+//     document.write("Number is Negative");
+// }
+// else{
+//     document.write("Not a Number");
+// }
+
+
+// 4. Write a program that takes a character (i.e. string of
+//     length 1) and returns true if it is a vowel, false otherwise
+//solution:
+
+var inputCharacter =prompt("Enter a Character");
+if(inputCharacter.charCodeAt()==65 || inputCharacter.charCodeAt()==97 || inputCharacter.charCodeAt()==109 || inputCharacter.charCodeAt()==69 || inputCharacter.charCodeAt()==73 || inputCharacter.charCodeAt()==105 || inputCharacter.charCodeAt()==111 || inputCharacter.charCodeAt()==79 || inputCharacter.charCodeAt()==85 || inputCharacter.charCodeAt()==117){
+    document.write(true+"You enter a Vowel")
+}
+else{
+    document.write(false);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

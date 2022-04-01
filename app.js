@@ -583,55 +583,220 @@
 // subjects & total marks. Compute & show the resulting
 // percentage on your page. Take percentage & compute
 // grade as per following table:
+// var inputMarks1 = +prompt("Enter Marks of 1st Subject");
+// var inputMarks2 = +prompt("Enter Marks of 2nd Subject");
+// var inputMarks3 = +prompt("Enter Marks of 3rd Subject");
+// var totalMarks = +prompt("Enter Total Marks");
+// var grade;
+// var remarks;
+// var gradAPlus="A+";
+// var gradA="A";
+// var gradB="B"
+// var gradF="Fail";
 
-var inputMarks1 = +prompt("Enter Marks of 1st Subject");
-var inputMarks2 = +prompt("Enter Marks of 2nd Subject");
-var inputMarks3 = +prompt("Enter Marks of 3rd Subject");
-var totalMarks = +prompt("Enter Total Marks");
+// var obtainMarks = inputMarks1+inputMarks2+inputMarks3; //sum of all marks
+// var obtainPercentage = (obtainMarks/totalMarks)*100; //calculate percentage
+
+// if(obtainPercentage>=80 || obtainMarks<=100){
+//     document.write("Excellent ! You got "+ gradAPlus+"grade");
+//     grade=gradAPlus;
+//     remarks = "Excellent !";
+// }
+// else if(obtainPercentage>=70 || obtainMarks<80){
+//     document.write("Good ! You "+gradA+"grade");
+//     grade=gradA;
+//     remarks = "Good";
+// }
+// else if(obtainPercentage>=60 || obtainMarks<70){
+//     document.write("You need to improve ! got "+gradB+" grade");
+//     grade=gradB;
+//     remarks="You need to improve !";
+// }
+// else if(obtainPercentage>=0 || obtainMarks<60){
+//     document.write("You are "+gradF+"! Sorry");
+//     grade=gradF;
+//     remarks="Sorry";
+// }
+// else{
+//     document.write("Invalid Input");
+// }
+// document.write("<br /><br />"+"Total Marks = "+totalMarks+"<br />")
+// document.write("you'r Obtained Marks = "+obtainMarks+"<br />");
+// document.write("You'r Percentage = "+obtainPercentage+"%"+"<br />");
+// document.write("Grade : "+grade+"<br />");
+// document.write(remarks+"<br />");
 
 
-var grade;
-var remarks;
-var gradAPlus="A+";
-var gradA="A";
-var gradB="B"
-var gradF="Fail";
+
+// 7. Guess game:
+// Store a secret number (ranging from 1 to 10) in a variable.
+// Prompt user to guess the secret number.
+// a. If user guesses the same number, show “Bingo! Correct
+// answer”.
+// b. If the guessed number +1 is the secret number, show
+// “Close enough to the correct answer”.
+
+
+// var secretNum = 6;
+// var selectNum = +prompt("Guess the Number from 1 To 10");
+// if(selectNum == secretNum){
+//     alert("Bingo ! Correct Answer")
+// }
+// else if(++selectNum == secretNum){
+//     alert("Close enough to Correct Answer");
+// }
+// else if(false){
+// alert("You did not Enter");
+// }
+// else{
+//     alert("Invalid Number");
+// }
+
+
+// var a = +prompt("Enter number");
+// if(a==true){
+// document.write("True");
+// }
+// if(a==false){
+//     document.write("false");
+// }
+
+// var t=true;
+// var f=false;
+// var a = +prompt("Enter number");
+// if(a==t){
+// document.write("True");
+// }
+// else if(a==f){
+//     document.write("false");
+// }
+
+// My practice
+// var v = +prompt("Enter number")
+// if(v){
+//     document.write("True");
+// }
+
+// else if(v==false){
+//     document.write("False");
+// }
+// else if(v===0){
+//     document.write("You Enter zero");
+// }
+//     else{
+//     document.write("Not a Number");
+
+// }
 
 
 
-var obtainMarks = inputMarks1+inputMarks2+inputMarks3; //sum of all marks
-var obtainPercentage = (obtainMarks/totalMarks)*100; //calculate percentage
+// My practice
+// var a = +prompt("Enter number");
+// if(a){
+// document.write("True");
+// }
+// else if(a==false){
+//     document.write("false");
+// }
+// else{
+//     document.write("Non a Number")
+// }
 
-if(obtainPercentage>=80 || obtainMarks<=100){
-    document.write("Excellent ! You got "+ gradAPlus+"grade");
-    grade=gradAPlus;
-    remarks = "Excellent !";
-}
-else if(obtainPercentage>=70 || obtainMarks<80){
-    document.write("Good ! You "+gradA+"grade");
-    grade=gradA;
-    remarks = "Good";
-}
-else if(obtainPercentage>=60 || obtainMarks<70){
-    document.write("You need to improve ! got "+gradB+" grade");
-    grade=gradB;
-    remarks="You need to improve !";
-}
-else if(obtainPercentage>=0 || obtainMarks<60){
-    document.write("You are "+gradF+"! Sorry");
-    grade=gradF;
-    remarks="Sorry";
-}
-else{
-    document.write("Invalid Input");
 
-}
 
-document.write("<br /><br />"+"Total Marks = "+totalMarks+"<br />")
-document.write("you'r Obtained Marks = "+obtainMarks+"<br />");
-document.write("You'r Percentage = "+obtainPercentage+"%"+"<br />");
-document.write("Grade : "+grade+"<br />");
-document.write(remarks+"<br />");
+
+// 8. Write a program to check whether the given number is
+// divisible by 3. Show the message to the user if the number
+// is divisible by 3.
+//solution:
+// var inputNum = +prompt("Enter a Number which should be divisible by Zero");
+// if((inputNum%3)==0){
+    //     document.write("Yes ! Number is Divisible by 3");
+//     }
+// else{
+//         document.write("No ! Number is Not Divisible by 3");}
+
+
+// 9. Write a program that checks whether the given input is an
+// even number or an odd number.
+
+//solution:
+//  var inputNum = +prompt("Enter a Number which should be divisible by Zero");
+// if((inputNum%2)==0){
+//     document.write("Number is Even !")
+// }
+// else{
+//     document.write("Number is Odd !")
+// }
+
+
+// 10. Write a program that takes temperature as input and
+// shows a message based on following criteria
+// a. T > 40 then “It is too hot outside.”
+// b. T > 30 then “The Weather today is Normal.”
+// c. T > 20 then “Today’s Weather is cool.”
+// d. T > 10 then “OMG! Today’s weather is so Cool.”
+
+// //solution:
+// var inputTemp = +prompt("Enter Temp ");
+// if(inputTemp >=0 && inputTemp<10){
+//     document.write("Today’s Weather is less then 10 Degree Centegrade");
+// }
+// if(inputTemp >= 10 && inputTemp <20){
+//     document.write("OMG! Today’s weather is so Cool.");
+// }
+// else if(inputTemp >= 20 && inputTemp <30){
+//     document.write("Today’s Weather is cool.");
+// }
+// else if(inputTemp >= 30 && inputTemp <40){
+//     document.write("The Weather today is Normal");
+// }
+// else if(inputTemp >= 40){
+//     document.write("Its Too Hot Outside");
+// }
+
+
+
+
+
+
+// 11. Write a program to create a calculator for +,-,*, / & %
+// using if statements. Take the following input:
+// a. First number
+// b. Second number
+// c. Operation (+, -, *, /, %)
+// Compute & show the calculated result to user.
+//solution:
+
+// var inputNum1 = +prompt("Enter 1st Number");
+// var inputNum2 = +prompt("Enter 2nd Number");
+// var inputOperator = prompt("Enter Operator");
+
+// if(inputOperator=="+"){
+//     document.write(inputNum1+inputNum2);
+// }
+// else if(inputOperator=="-"){
+//     document.write(inputNum1-inputNum2);
+// }
+// else if(inputOperator=="/"){
+//     document.write(inputNum1/inputNum2);
+// }
+// else if(inputOperator=="*"){
+//     document.write(inputNum1*inputNum2);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

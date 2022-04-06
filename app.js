@@ -999,20 +999,32 @@
 
 // solution:
 
-// var colorName = [];
-// var col1 = prompt("Enter Your Color Name");
-// colorName.unshift(col1);//add value in the begining of Array
-// console.log(colorName);
-// var col2 = prompt("Enter Your end Color Name");
-// colorName.push(col2);
-// console.log(colorName);
+var colorName = [];
+var col1 = prompt("Enter Your Color Name");
+colorName.unshift(col1);//add value in the begining of Array
+console.log(colorName);//updated Array
+var col2 = prompt("Enter Your end Color Name");
+colorName.push(col2);//add value in the end of Array
+console.log(colorName);//updated Array
 
-// var value1 =prompt("Enter color again");
-// var value2 =prompt("Enter second color again");
-// colorName.unshift(value1,value2);
-// console.log(colorName);
-// colorName.shift();//delete the first color in a Array ! 
-// console.log(colorName);
+var value1 =prompt("Enter color again");
+var value2 =prompt("Enter second color again");
+colorName.unshift(value1,value2);//add two colors in a Array
+console.log(colorName);//updated array
+colorName.shift();//delete the first color in a Array ! 
+console.log(colorName); //updated Array
+colorName.pop();//delete the last value of Array
+console.log(colorName); //updated Array
+
+
+
+document.write(colorName);
+var desiredIndexPosition = +prompt("Enter Array Position to add Element");
+var desiredColor = prompt("Enter Color to add at Position");
+colorName.splice(desiredIndexPosition,0,desiredColor);
+console.log(colorName); //updated Array
+
+
 
 
 // 10. Write a program to store student scores in an array &
@@ -1096,10 +1108,10 @@
 //     Display the following dropdown/select menu in your
 //     browser using document.write() method:
 
-var phone = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
-//console.log(phone);
-document.write("<h3>Select these Options</h3>");
-document.write("<select><option>"+phone[0]+"</option><option>"+phone[1]+"</option><option>"+phone[2]+"</option><option>"+phone[3]+"</option></select>")
+// var phone = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
+// //console.log(phone);
+// document.write("<h3>Select these Options</h3>");
+// document.write("<select><option>"+phone[0]+"</option><option>"+phone[1]+"</option><option>"+phone[2]+"</option><option>"+phone[3]+"</option></select>")
 
 
 
@@ -1107,14 +1119,15 @@ document.write("<select><option>"+phone[0]+"</option><option>"+phone[1]+"</optio
 
 
 
-var arr = ["apple","mango","banana"];
-console.log(arr);
 
-
-
-
-
-
+//Prcatice
+// var arr = ["karachi","Lahore","Multan","faislabad"]
+// // splice (targetPoint , deleteCount , items);
+// //arr.splice(1,1)//start from 1 index and will delete only 1 element
+// console.log(arr);
+// arr.splice(1,2,"Aun Ali")//start from 1 index and will delete 2 elements
+// arr.splice(1,0,"Aun Ali")//start from 1 index and will delete no element and add element at 1 index
+// console.log(arr);
 
 
 

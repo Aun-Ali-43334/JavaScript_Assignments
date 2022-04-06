@@ -1025,7 +1025,16 @@ colorName.splice(desiredIndexPosition,0,desiredColor);
 console.log(colorName); //updated Array
 
 
+// -------------------My Prcatice -------------------------
 
+// var arr = ["karachi","Lahore","Multan","faislabad"]
+// // splice (targetPoint , deleteCount , items);
+// //arr.splice(1,1)//start from 1 index and will delete only 1 element
+// console.log(arr);
+// arr.splice(1,2,"Aun Ali")//start from 1 index and will delete 2 elements
+// arr.splice(1,0,"Aun Ali")//start from 1 index and will delete no element and add element at 1 index
+// console.log(arr);
+// -----------------------------------------------------------------
 
 // 10. Write a program to store student scores in an array &
 // sort the array in ascending order using Array’s sort
@@ -1120,14 +1129,6 @@ console.log(colorName); //updated Array
 
 
 
-//Prcatice
-// var arr = ["karachi","Lahore","Multan","faislabad"]
-// // splice (targetPoint , deleteCount , items);
-// //arr.splice(1,1)//start from 1 index and will delete only 1 element
-// console.log(arr);
-// arr.splice(1,2,"Aun Ali")//start from 1 index and will delete 2 elements
-// arr.splice(1,0,"Aun Ali")//start from 1 index and will delete no element and add element at 1 index
-// console.log(arr);
 
 
 

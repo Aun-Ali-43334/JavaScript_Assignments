@@ -905,29 +905,155 @@
 
 
 
+// -------------------- second Task Assigned --------------------
+// ARRAYS 
+// 1. Declare an empty array using JS literal notation to store
+// student names in future
+//solution:
+// var aar = []; //literals notations
+// console.log(aar);
 
 
 
+//  2. Declare an empty array using JS object notation to store
+//  student names in future.
+//  solution:
+    // var arr = new Array ("Aun Ali",24,"Student");//object notation Array
+
+// 3. Declare and initialize a strings array.
+// solution:
+// var arrString = ["Aun Ali","Student","BS-CS","IU"];
+
+
+// 4. Declare and initialize a numbers array.
+// solution:
+// var numArray = [1,2,4,5,6];
+
+
+// 5. Declare and initialize a boolean array.
+// solution:
+// var booleanArray = [true,false] //Boolean Array
+
+// 6. Declare and initialize a mixed array.
+// solution:
+// var mixArray = ["Aun Ali",24,"Male","Student",true];
+
+
+// 7. Declare and Initialize an array and store available
+// education qualifications in Pakistan (e.g. SSC, HSC, BCS,
+// BS, BCOM, MS, M. Phil., PhD). Show the listed
+// qualifications in your browser like:
+
+// solution:
+// var availableEducationDepartments = ["SSC", "HSC", "BCS","BS", "BCOM", "MS", "M.Phil", "PhD"];
+// document.write("Qualifications :<br /><br />")
+
+// for( var i=0;i<availableEducationDepartments.length;i++){
+    // console.log(availableEducationDepartments[i]);
+    // document.write("("+[i+1]+")  "+availableEducationDepartments[i]+"<br />")
+    // }
+    
+    
+    
+// 8. Write a program to store 3 student names in an array.Take
+// another array to store score of these three students.
+// Assume that total marks are 500 for each student, display
+// the scores & percentages of students like:
+// solution:
+
+// var studentNames = ["Aun Ali","Asim","Qasim"];
+// var studentScores = [320,230,480];
+// var totalMarks = 500;
+// // document.write(studentNames)
+// for (var i=0;i<studentNames.length;i++){
+//     document.write("Score of "+studentNames[i]+ " is : "+studentScores[i] +" Percentage : "+(((studentScores[i])/(totalMarks))*100)+" % "+"<br />");
+// }
 
 
 
+// 9. Initialize an array with color names. Display the array
+// elements in your browser.
+// a. Ask the user what color he/she wants to add to the
+// beginning & add that color to the beginning of the array.
+// Display the updated array in your browser.
+// b. Ask the user what color he/she wants to add to the end
+// & add that color to the end of the array. Display the
+// updated array in your browser.
+// c. Add two more color to the beginning of the array.
+// Display the updated array in your browser.
+// d. Delete the first color in the array. Display the updated
+// array in your browser.
+// e. Delete the last color in the array. Display the updated
+// array in your browser.
+// f. Ask the user at which index he/she wants to add a color
+// & color name. Then add the color to desired
+// position/index. . Display the updated array in your
+// browser.
+// g. Ask the user at which index he/she wants to delete
+// color(s) & how many colors he/she wants to delete. Then
+// Arrays | JAVASCRIPT
+// Page 3 of 6
+// remove the same number of color(s) from user-defined
+// position/index. . Display the updated array in your
+// browser.
+
+// solution:
+
+// var colorName = [];
+// var col1 = prompt("Enter Your Color Name");
+// colorName.unshift(col1);//add value in the begining of Array
+// console.log(colorName);
+// var col2 = prompt("Enter Your end Color Name");
+// colorName.push(col2);
+// console.log(colorName);
+
+// var value1 =prompt("Enter color again");
+// var value2 =prompt("Enter second color again");
+// colorName.unshift(value1,value2);
+// console.log(colorName);
+// colorName.shift();//delete the first color in a Array ! 
+// console.log(colorName);
 
 
+// 10. Write a program to store student scores in an array &
+// sort the array in ascending order using Array’s sort
+// method.
+
+// //solution:
+// var arr = [320,230,480,120];
+// arr.sort();
+// document.write(arr);
 
 
+// 11. Write a program to initialize an array with city names.
+// Copy 3 array elements from cities array to selectedCities
+// array.
+
+var cities = ["Karachi","Lahore","Islamabad","Quetta", "Peshawar"];
+console.log(cities);
+//my understanding:
+//cities.copyArr(startingPoint,EndingPoint)
+//cities.copyArr(index,Lenght)
+//cities.copyArr(1,3) //copy from index 0 to length 3
+//cities.copyArr(0,-1) //copy from index 0 & leave the last element in a Array
+//cities.copyArr(0,-2) 
+//cities.copyArr(-1) //will copy last value and leave remaing elements
+//cities.copyArr(-2) //will copy 2nd-last value and leave remaing element
+//cities.copyArr(1) //it has startPoint but no endPoint ,means it will copy all remaining elements start from 0 index.
 
 
+//solution
+var copyArr = cities.slice(2,4);
+console.log(copyArr);
 
+// 12. Write a program to create a single string from the
+// below mentioned array:
+// var arr = [“This ”, “ is ”, “ my ”, “ cat”];
+// (Use array’s join method)
 
-
-
-
-
-
-
-
-
-
+var arr = ["This","is", "my", "cat"];
+console.log(arr);
+console.log(arr.join());
 
 
 

@@ -1029,8 +1029,8 @@
 // Copy 3 array elements from cities array to selectedCities
 // array.
 
-var cities = ["Karachi","Lahore","Islamabad","Quetta", "Peshawar"];
-console.log(cities);
+// var cities = ["Karachi","Lahore","Islamabad","Quetta", "Peshawar"];
+// console.log(cities);
 //my understanding:
 //cities.copyArr(startingPoint,EndingPoint)
 //cities.copyArr(index,Lenght)
@@ -1043,18 +1043,72 @@ console.log(cities);
 
 
 //solution
-var copyArr = cities.slice(2,4);
-console.log(copyArr);
+// var copyArr = cities.slice(2,4);
+// console.log(copyArr);
 
 // 12. Write a program to create a single string from the
 // below mentioned array:
 // var arr = [“This ”, “ is ”, “ my ”, “ cat”];
 // (Use array’s join method)
 
-var arr = ["This","is", "my", "cat"];
-console.log(arr);
-console.log(arr.join());
+// var arr = ["This","is", "my", "cat"];
+// console.log(arr);
+// var arr1 = arr.join(" ");
+// console.log(arr1);
 
+
+// 13. Create a new array. Store values one by one in such a way
+// that you can access the values in the order in which they
+// were stored. (FIFO-First In First Out)
+// solution:
+// FIFO
+// var newArray = [];
+// var val1 = prompt("Enter Value 1 in a Array");
+// var val2 = prompt("Enter Value 2 in a Array");
+// var val3 = prompt("Enter Value 3 in a Array");
+
+// newArray.unshift(val1,val2,val3);
+// alert("Orignial Array : "+newArray);
+// newArray.shift();
+// alert("Shiift Method: "+newArray);
+
+
+
+// 14. Create a new array. Store values one by one in such a way
+// that you can access the values in reverse order. (Last InFirst Out)
+
+//// solution:
+//LIFO
+// var newArray = [];
+// var val1 = prompt("Enter Value 1 in a Array");
+// var val2 = prompt("Enter Value 2 in a Array");
+// var val3 = prompt("Enter Value 3 in a Array");
+
+// newArray.push(val1,val2,val3);
+// alert("Orignial Array : "+newArray);
+// newArray.pop();
+// alert("Shiift Method: "+newArray);
+
+
+
+// 15. Write a program to store phone manufacturers (Apple,
+//     Samsung, Motorola, Nokia, Sony & Haier) in an array.
+//     Display the following dropdown/select menu in your
+//     browser using document.write() method:
+
+var phone = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
+//console.log(phone);
+document.write("<h3>Select these Options</h3>");
+document.write("<select><option>"+phone[0]+"</option><option>"+phone[1]+"</option><option>"+phone[2]+"</option><option>"+phone[3]+"</option></select>")
+
+
+
+
+
+
+
+var arr = ["apple","mango","banana"];
+console.log(arr);
 
 
 
